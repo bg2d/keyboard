@@ -7,8 +7,8 @@ To change the layout:
 * load catan.json on qmk configurator
 * change as you wish
 * export the new layout in .json format
-* create a keymap from the .json file: qmk json2c -o keymap.c catan.json
-* replace the original keymap.c from qmk_firmware/keyboards/handwired/dactyl_manuform/5x6/keymaps with the new one
-* build the new firmware: qmk compile -kb handwired/dactyl_manuform/5x6 -km catan
+* create a keymap from the .json file: ``` qmk json2c -o keymap.c catan.json ```
+* replace the original keymap.c from *qmk_firmware/keyboards/handwired/dactyl_manuform/5x6/keymaps* with the new one
+* build the new firmware: ``` qmk compile -kb handwired/dactyl_manuform/5x6 -km catan ```
 * upload the .hex file on MCUs
 

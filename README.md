@@ -3,8 +3,8 @@
 This is the "catan" layout that is used on my dactyl manuform 5x6 keyboard.
 
 To change the layout:
-* make sure that you have a clone of qmk firmware
-* load catan.json on qmk configurator
+* make sure that you have a clone of [qmk firmware](https://github.com/qmk/qmk_firmware)
+* load catan.json on [qmk configurator](https://config.qmk.fm)
 * change as you wish
 * export the new layout in .json format
 * create a keymap from the .json file: ``` qmk json2c -o keymap.c catan.json ```
